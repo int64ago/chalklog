@@ -1,0 +1,27 @@
+{
+  "name": "fancy-log-chalk",
+  "version": "1.0.0",
+  "description": "chalk + fancy-log",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/int64ago/fancy-log-chalk.git"
+  },
+  "keywords": [
+    "chalk",
+    "fancy-log"
+  ],
+  "author": "Cody Chan <int64ago@gmail.com> (https://int64ago.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/int64ago/fancy-log-chalk/issues"
+  },
+  "homepage": "https://github.com/int64ago/fancy-log-chalk#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "fancy-log": "^1.3.0"
+  }
+}
