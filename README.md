@@ -15,7 +15,10 @@ log.bgGreen('bgGreen');
 log.blue.bgRed.bold('blue+bgRed+bold');
 ```
 
-[Screenshot](https://cdn.int64ago.org/r6u3smrhcneb0meyd5cdi.png)
+![](https://cdn.int64ago.org/wujq0r4hwyccxlx6z6qd7vi.png)
+
+### License
+[![license][license-image]][license-url]
 
  [1]: https://github.com/chalk/chalk
  [2]: https://github.com/js-cli/fancy-log
@@ -25,3 +28,6 @@ log.blue.bgRed.bold('blue+bgRed+bold');
 
  [travis-url]: https://travis-ci.org/int64ago/fancy-log-chalk
  [travis-image]: https://img.shields.io/travis/int64ago/fancy-log-chalk.svg
+
+ [license-url]: https://github.com/int64ago/fancy-log-chalk/blob/master/LICENSE
+ [license-image]: https://img.shields.io/github/license/int64ago/fancy-log-chalk.svg
