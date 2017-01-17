@@ -1,6 +1,6 @@
 {
   "name": "fancy-log-chalk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "chalk + fancy-log",
   "main": "index.js",
   "scripts": {
