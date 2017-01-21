@@ -8,11 +8,11 @@ A logger based on [chalk](https://github.com/chalk/chalk)
  `npm i chalklog`
 
 ```javascript
-var logger = require('chalklog')('scope');
+var log = require('chalklog')('scope');
 
-logger.red('red');
-logger.bgGreen('bgGreen');
-logger.blue.bgRed.bold('blue+bgRed+bold');
+log.red('red');
+log.bgGreen('bgGreen');
+log.blue.bgRed.bold('blue+bgRed+bold');
 ```
 
 ![](https://cdn.int64ago.org/slhbiuutwwbn5i6raoflxr.png)
