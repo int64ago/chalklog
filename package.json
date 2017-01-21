@@ -1,5 +1,5 @@
 {
-  "name": "chalk-logger",
+  "name": "chalklog",
   "version": "1.0.2",
   "description": "chalk logger",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/int64ago/chalk-logger.git"
+    "url": "git+https://github.com/int64ago/chalklog.git"
   },
   "keywords": [
     "chalk",
@@ -17,9 +17,9 @@
   "author": "Cody Chan <int64ago@gmail.com> (https://int64ago.org)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/int64ago/chalk-logger/issues"
+    "url": "https://github.com/int64ago/chalklog/issues"
   },
-  "homepage": "https://github.com/int64ago/chalk-logger#readme",
+  "homepage": "https://github.com/int64ago/chalklog#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "time-stamp": "^1.0.1"

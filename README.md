@@ -1,14 +1,14 @@
-# chalk-logger
+# chalklog
 A logger based on [chalk](https://github.com/chalk/chalk)
 
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 ### Usage
 
- `npm i chalk-logger`
+ `npm i chalklog`
 
 ```javascript
-var logger = require('chalk-logger')('scope');
+var logger = require('chalklog')('scope');
 
 logger.red('red');
 logger.bgGreen('bgGreen');
@@ -20,11 +20,11 @@ logger.blue.bgRed.bold('blue+bgRed+bold');
 ### License
 [![license][license-image]][license-url]
 
- [npm-url]: https://npmjs.org/package/chalk-logger
- [npm-image]: https://img.shields.io/npm/v/chalk-logger.svg
+ [npm-url]: https://npmjs.org/package/chalklog
+ [npm-image]: https://img.shields.io/npm/v/chalklog.svg
 
- [travis-url]: https://travis-ci.org/int64ago/chalk-logger
- [travis-image]: https://img.shields.io/travis/int64ago/chalk-logger.svg
+ [travis-url]: https://travis-ci.org/int64ago/chalklog
+ [travis-image]: https://img.shields.io/travis/int64ago/chalklog.svg
 
- [license-url]: https://github.com/int64ago/chalk-logger/blob/master/LICENSE
- [license-image]: https://img.shields.io/github/license/int64ago/chalk-logger.svg
+ [license-url]: https://github.com/int64ago/chalklog/blob/master/LICENSE
+ [license-image]: https://img.shields.io/github/license/int64ago/chalklog.svg
