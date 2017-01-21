@@ -56,6 +56,4 @@ function init() {
 
 defineProps(ChalkLogger.prototype, init());
 
-module.exports = function(scope) {
-  return new ChalkLogger(scope);
-};
+module.exports = ChalkLogger;
