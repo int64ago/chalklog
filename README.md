@@ -1,33 +1,30 @@
-# fancy-log-chalk
-[chalk][1] + [fancy-log][2]
+# chalk-logger
+A logger based on [chalk](https://github.com/chalk/chalk)
 
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 ### Usage
 
- `npm i fancy-log-chalk`
+ `npm i chalk-logger`
 
 ```javascript
-var log = require('fancy-log-chalk');
+var logger = require('chalk-logger')('scope');
 
-log.red('red');
-log.bgGreen('bgGreen');
-log.blue.bgRed.bold('blue+bgRed+bold');
+logger.red('red');
+logger.bgGreen('bgGreen');
+logger.blue.bgRed.bold('blue+bgRed+bold');
 ```
 
-![](https://cdn.int64ago.org/wujq0r4hwyccxlx6z6qd7vi.png)
+![](https://cdn.int64ago.org/slhbiuutwwbn5i6raoflxr.png)
 
 ### License
 [![license][license-image]][license-url]
 
- [1]: https://github.com/chalk/chalk
- [2]: https://github.com/js-cli/fancy-log
+ [npm-url]: https://npmjs.org/package/chalk-logger
+ [npm-image]: https://img.shields.io/npm/v/chalk-logger.svg
 
- [npm-url]: https://npmjs.org/package/fancy-log-chalk
- [npm-image]: https://img.shields.io/npm/v/fancy-log-chalk.svg
+ [travis-url]: https://travis-ci.org/int64ago/chalk-logger
+ [travis-image]: https://img.shields.io/travis/int64ago/chalk-logger.svg
 
- [travis-url]: https://travis-ci.org/int64ago/fancy-log-chalk
- [travis-image]: https://img.shields.io/travis/int64ago/fancy-log-chalk.svg
-
- [license-url]: https://github.com/int64ago/fancy-log-chalk/blob/master/LICENSE
- [license-image]: https://img.shields.io/github/license/int64ago/fancy-log-chalk.svg
+ [license-url]: https://github.com/int64ago/chalk-logger/blob/master/LICENSE
+ [license-image]: https://img.shields.io/github/license/int64ago/chalk-logger.svg

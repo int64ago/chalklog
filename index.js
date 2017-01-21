@@ -1,9 +1,16 @@
-var log = require('fancy-log');
 var chalk = require('chalk');
+var timestamp = require('time-stamp');
 var defineProps = Object.defineProperties;
 
-function ChalkLog() {
+function ChalkLogger(scope) {
   this.enabled = chalk.enabled;
+  this.scope = scope || '';
+};
+
+var logger = function(log, scope) {
+  var time = chalk.grey('[') + timestamp('HH:mm:ss') + chalk.grey('] ');
+  var scope = scope ? chalk.grey('[') + chalk.bold(scope) + chalk.grey('] ') : '';
+  console.log(time + scope + log);
 };
 
 var styles = (function () {
@@ -26,10 +33,11 @@ var build = function(_styles) {
     builder._styles.forEach(function(_style) {
       fn = fn[_style];
     });
-    return log(fn.apply(builder, arguments));
+    logger(fn.apply(builder, arguments), builder.scope);
   };
   builder._styles = _styles;
   builder.enabled = this.enabled;
+  builder.scope = this.scope;
   builder.__proto__ = proto;
   return builder;
 };
@@ -46,6 +54,8 @@ function init() {
   return ret;
 }
 
-defineProps(ChalkLog.prototype, init());
+defineProps(ChalkLogger.prototype, init());
 
-module.exports = new ChalkLog();
+module.exports = function(scope) {
+  return new ChalkLogger(scope);
+};

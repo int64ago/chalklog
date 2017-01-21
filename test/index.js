@@ -1,5 +1,5 @@
-var log = require('../index');
+var logger = require('../index')('scope');
 
-log.red('red');
-log.bgGreen('bgGreen');
-log.blue.bgRed.bold('blue+bgRed+bold');
+logger.red('red');
+logger.bgGreen('bgGreen');
+logger.blue.bgRed.bold('blue+bgRed+bold');

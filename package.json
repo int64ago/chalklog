@@ -1,27 +1,27 @@
 {
-  "name": "fancy-log-chalk",
-  "version": "1.0.1",
-  "description": "chalk + fancy-log",
+  "name": "chalk-logger",
+  "version": "1.0.2",
+  "description": "chalk logger",
   "main": "index.js",
   "scripts": {
     "test": "node ./test/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/int64ago/fancy-log-chalk.git"
+    "url": "git+https://github.com/int64ago/chalk-logger.git"
   },
   "keywords": [
     "chalk",
-    "fancy-log"
+    "logger"
   ],
   "author": "Cody Chan <int64ago@gmail.com> (https://int64ago.org)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/int64ago/fancy-log-chalk/issues"
+    "url": "https://github.com/int64ago/chalk-logger/issues"
   },
-  "homepage": "https://github.com/int64ago/fancy-log-chalk#readme",
+  "homepage": "https://github.com/int64ago/chalk-logger#readme",
   "dependencies": {
     "chalk": "^1.1.3",
-    "fancy-log": "^1.3.0"
+    "time-stamp": "^1.0.1"
   }
 }
